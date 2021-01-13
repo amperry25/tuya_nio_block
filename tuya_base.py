@@ -11,7 +11,7 @@ from nio.util.threading import spawn
 from nio.util.discovery import not_discoverable
 
 @command('rediscover')
-#@not_discoverable
+@not_discoverable
 class TuYaBase(Block, EnrichSignals):
 
     device_mac = StringProperty(title='MAC Address of Target Device',
