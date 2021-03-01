@@ -1,1 +1,1 @@
-pytuya~=3.0
+pytuya=7.0.6

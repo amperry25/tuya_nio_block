@@ -1,4 +1,3 @@
-# tuya_nio_block
 Example
 =======
 

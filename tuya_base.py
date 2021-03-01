@@ -58,7 +58,6 @@ class TuYaBase(Block, EnrichSignals):
         self.notify_signals(outgoing_signals)
 
     def execute_tuya_command(self, signal):
-        self.logger.error(signal)
         return {}
 
     def rediscover(self):
@@ -167,3 +166,4 @@ class TuYaDevice():
             self.signal = Signal(self.tuya.status())
         else:
             self.signal = signal
+
